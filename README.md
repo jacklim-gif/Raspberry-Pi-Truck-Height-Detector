@@ -28,8 +28,6 @@ Great for road safety prototypes!
 - **HC-SR04:** VCC → Pin2 (5V), GND → Pin6, Trig → GPIO23 (Pin16), Echo → GPIO24 (Pin18) via 1kΩ/2kΩ divider  
 - **LED:** GPIO26 (Pin37) → Resistor → Anode → Cathode → GND (Pin39)  
 - **Buzzer:** GPIO17 (Pin11) → Resistor → (+) → (-) → GND (Pin9)  
-- **Optional Wiring Diagram:**  
-  ![Wiring](docs/wiring.png)  
 
 ---
 

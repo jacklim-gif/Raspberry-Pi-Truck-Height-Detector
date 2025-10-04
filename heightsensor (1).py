@@ -28,7 +28,7 @@ except Exception as e:
     exit(1)
 
 # Setup Gemini model
-GOOGLE_API_KEY = "AIzaSyAh5kDRgLdQCYr0LYHiap5rsd8SzNlsXBc"
+GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 try:
     gemini_model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.4)
